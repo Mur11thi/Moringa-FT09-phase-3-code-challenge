@@ -79,7 +79,7 @@ Write the following methods in the models(Article, Author, magazine) provided in
 - `Magazine __init__(self, id, name, category)`
   - A magazine is initialized with a name and a category
   - This initialization should create a new entry in the database `magazines` table 
-- `Author property id`
+- `Magazine property id`
   - Returns the id of the newly created `Magazine`
   - id must be of type `int`
   - Remember to use the setter and getter method for easy retrieval, since this will be needed when creating `articles`
